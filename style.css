@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Josefin+Sans:wght@100;700&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0;
+    /* font-family: 'Lobster', cursive; */
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.header {
+    width: 100%;
+    padding: 10px;
+    background-color: #265cb9;
+    color: white;
+    position: sticky;
+    top: 0;
+}
+
+.ul {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    list-style: none;
+    justify-content: center;
+}
+
+.btn, .txt, .set, span {
+    margin-left: 10px;
+}
+
+.btn {
+    padding: 10px;
+    background-color: rgb(12, 10, 10);
+    color: rgb(9, 255, 9);
+}
+
+.btn:hover {
+    color: white;
+}
+
+.input {
+    text-align: center;
+    width: 40%;
+}
+
+span {
+    margin-top: 0.9%;
+}
+
+.whole {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.container {
+    /* border: 2px solid black;
+    height: 50vw;
+    width: 60vw; */
+    padding: 10px;
+}
+
+.temp {
+    font-size: 6rem;
+    /* border: 2px solid red; */
+    height: 8rem;
+    width: auto;
+    padding: 10px;
+}
+
+.feels, .loc {
+    font-size: 2rem;
+    margin-left: 25%;
+}
+
+.details {
+    margin-top: 10%;
+    font-size: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+    .temp {
+        font-size: 2rem;
+    }
+}
+
