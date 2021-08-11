@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 longitude = position.coords.longitude;
                 latitude = position.coords.latitude;
                 const api = "6d055e39ee237af35ca066f35474e9df";
-                const base = `http://api.openweathermap.org/data/2.5/weather?lat=${latitude}&` + `lon=${longitude}&appid=6d055e39ee237af35ca066f35474e9df`;
+                const base = `https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&` + `lon=${longitude}&appid=6d055e39ee237af35ca066f35474e9df`;
 
                 fetch(base).then((response) => {
                     return response.json();
